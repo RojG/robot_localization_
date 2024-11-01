@@ -1,0 +1,444 @@
+[0.069s] Invoking command in '/home/hi/robot_localization/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hi/robot_localization/robot_localization -DCMAKE_INSTALL_PREFIX=/home/hi/robot_localization/install/robot_localization
+[0.364s] -- The C compiler identification is GNU 11.4.0
+[0.704s] -- The CXX compiler identification is GNU 11.4.0
+[0.738s] -- Detecting C compiler ABI info
+[1.341s] -- Detecting C compiler ABI info - done
+[1.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.390s] -- Detecting C compile features
+[1.391s] -- Detecting C compile features - done
+[1.412s] -- Detecting CXX compiler ABI info
+[1.918s] -- Detecting CXX compiler ABI info - done
+[1.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.949s] -- Detecting CXX compile features
+[1.965s] -- Detecting CXX compile features - done
+[1.966s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[1.985s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.978s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.670s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[3.701s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.134s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.188s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.979s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.009s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.695s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.974s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.538s] -- Looking for pthread.h
+[6.964s] -- Looking for pthread.h - found
+[6.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.486s] -- Found Threads: TRUE  
+[8.338s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[8.567s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[8.681s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[9.476s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[9.524s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.886s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.966s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.327s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[10.429s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[10.579s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[12.160s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[12.246s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[12.254s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.255s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.355s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[12.380s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[12.413s] -- Found GeographicLib: /usr/lib/aarch64-linux-gnu  
+[14.328s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[14.355s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[14.384s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[14.410s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[17.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.251s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[18.276s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[18.403s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[18.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.405s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[18.406s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[18.520s] -- Found PythonExtra: .so  
+[18.933s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[18.960s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[19.055s] -- Configuring done
+[19.521s] -- Generating done
+[19.553s] -- Build files have been written to: /home/hi/robot_localization/build/robot_localization
+[19.646s] Invoked command in '/home/hi/robot_localization/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hi/robot_localization/robot_localization -DCMAKE_INSTALL_PREFIX=/home/hi/robot_localization/install/robot_localization
+[19.657s] Invoking command in '/home/hi/robot_localization/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/robot_localization/build/robot_localization -- -j4 -l4
+[19.993s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.014s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.112s] [  2%] Built target ament_cmake_python_copy_robot_localization
+[22.178s] running egg_info
+[22.187s] creating robot_localization.egg-info
+[22.190s] writing robot_localization.egg-info/PKG-INFO
+[22.194s] writing dependency_links to robot_localization.egg-info/dependency_links.txt
+[22.199s] writing top-level names to robot_localization.egg-info/top_level.txt
+[22.203s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[22.207s] reading manifest file 'robot_localization.egg-info/SOURCES.txt'
+[22.211s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[22.391s] [  2%] Built target ament_cmake_python_build_robot_localization_egg
+[24.211s] [  2%] Built target robot_localization__cpp
+[24.288s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.450s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[24.579s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[25.414s] [  7%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/from_ll__functions.c.o[0m
+[26.811s] [  8%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/get_state__functions.c.o[0m
+[28.495s] [ 10%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/from_ll__type_support.cpp.o[0m
+[28.567s] [ 11%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_datum__functions.c.o[0m
+[30.507s] [ 12%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_pose__functions.c.o[0m
+[30.612s] [ 13%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/from_ll__type_support.cpp.o[0m
+[30.837s] [ 15%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/from_ll__type_support.cpp.o[0m
+[32.006s] [ 16%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/toggle_filter_processing__functions.c.o[0m
+[32.950s] [ 17%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/get_state__type_support.cpp.o[0m
+[33.863s] [ 18%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/to_ll__functions.c.o[0m
+[35.689s] [ 20%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/get_state__type_support.cpp.o[0m
+[35.949s] [ 21%] [32m[1mLinking C shared library librobot_localization__rosidl_generator_c.so[0m
+[36.501s] [ 21%] Built target robot_localization__rosidl_generator_c
+[36.804s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_datum__type_support.cpp.o[0m
+[37.301s] [ 24%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/get_state__type_support.cpp.o[0m
+[39.793s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_pose__type_support.cpp.o[0m
+[40.536s] [ 26%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_datum__type_support.cpp.o[0m
+[42.504s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_datum__type_support.cpp.o[0m
+[42.781s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/toggle_filter_processing__type_support.cpp.o[0m
+[44.723s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_pose__type_support.cpp.o[0m
+[45.619s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/to_ll__type_support.cpp.o[0m
+[47.166s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[48.691s] [ 34%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_cpp.so[0m
+[48.894s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/toggle_filter_processing__type_support.cpp.o[0m
+[49.002s] [ 35%] Built target robot_localization__rosidl_typesupport_cpp
+[51.258s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/toggle_filter_processing__type_support.cpp.o[0m
+[52.188s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/to_ll__type_support.cpp.o[0m
+[55.136s] [ 39%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/to_ll__type_support.cpp.o[0m
+[55.736s] [ 40%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_introspection_cpp.so[0m
+[56.265s] [ 40%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[57.948s] [ 41%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_fastrtps_cpp.so[0m
+[58.406s] [ 41%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[58.463s] [ 43%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[60.513s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/from_ll__type_support.cpp.o[0m
+[60.728s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/get_state__type_support.cpp.o[0m
+[60.962s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/set_datum__type_support.cpp.o[0m
+[61.183s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/set_pose__type_support.cpp.o[0m
+[61.419s] [ 49%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/toggle_filter_processing__type_support.cpp.o[0m
+[61.647s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_localization/srv/to_ll__type_support.cpp.o[0m
+[61.881s] [ 51%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_c.so[0m
+[62.117s] [ 51%] Built target robot_localization__rosidl_typesupport_c
+[62.186s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[62.251s] [ 54%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ekf.cpp.o[0m
+[62.269s] [ 55%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_filter.cpp.o[0m
+[65.939s] [ 56%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/from_ll__type_support.c.o[0m
+[66.578s] [ 58%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/get_state__type_support.c.o[0m
+[67.247s] [ 59%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_datum__type_support.c.o[0m
+[67.779s] [ 60%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_pose__type_support.c.o[0m
+[68.285s] [ 62%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/toggle_filter_processing__type_support.c.o[0m
+[68.950s] [ 63%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/to_ll__type_support.c.o[0m
+[69.435s] [ 64%] [32m[1mLinking C shared library librobot_localization__rosidl_typesupport_introspection_c.so[0m
+[69.728s] [ 64%] Built target robot_localization__rosidl_typesupport_introspection_c
+[69.804s] [ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[69.835s] [ 67%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_filter_utilities.cpp.o[0m
+[75.072s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/from_ll__type_support_c.cpp.o[0m
+[79.138s] [ 69%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/get_state__type_support_c.cpp.o[0m
+[83.461s] [ 70%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_datum__type_support_c.cpp.o[0m
+[87.834s] [ 72%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_pose__type_support_c.cpp.o[0m
+[92.016s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/toggle_filter_processing__type_support_c.cpp.o[0m
+[96.625s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/to_ll__type_support_c.cpp.o[0m
+[100.913s] [ 75%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_fastrtps_c.so[0m
+[101.973s] [ 75%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[393.108s] [ 77%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/filter_utilities.cpp.o[0m
+[393.110s] [ 78%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/filter_base.cpp.o[0m
+[418.696s] [ 79%] [32m[1mLinking CXX shared library librl_lib.so[0m
+[424.854s] [ 79%] Built target rl_lib
+[424.960s] [ 79%] Built target robot_localization
+[424.962s] [ 81%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[425.078s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[431.243s] [ 82%] Built target robot_localization__py
+[431.378s] [ 83%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_py.dir/rosidl_generator_py/robot_localization/srv/_get_state_s.c.o[0m
+[431.383s] [ 84%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_py.dir/rosidl_generator_py/robot_localization/srv/_set_datum_s.c.o[0m
+[431.388s] [ 86%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_py.dir/rosidl_generator_py/robot_localization/srv/_from_ll_s.c.o[0m
+[432.611s] [ 87%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_py.dir/rosidl_generator_py/robot_localization/srv/_set_pose_s.c.o[0m
+[432.643s] [ 88%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_py.dir/rosidl_generator_py/robot_localization/srv/_toggle_filter_processing_s.c.o[0m
+[433.026s] [ 89%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_py.dir/rosidl_generator_py/robot_localization/srv/_to_ll_s.c.o[0m
+[434.211s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/librobot_localization__rosidl_generator_py.so[0m
+[434.546s] [ 91%] Built target robot_localization__rosidl_generator_py
+[434.721s] [ 92%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_localization/_robot_localization_s.ep.rosidl_typesupport_c.c.o[0m
+[434.757s] [ 93%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_localization/_robot_localization_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[434.809s] [ 94%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_localization/_robot_localization_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[437.415s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[437.555s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[437.595s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[438.247s] [ 98%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[438.437s] [ 98%] Built target robot_localization__rosidl_typesupport_c__pyext
+[438.585s] [ 98%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[461.810s] [100%] [32m[1mLinking CXX executable ekf_node[0m
+[463.350s] [100%] Built target ekf_node
+[463.407s] Invoked command in '/home/hi/robot_localization/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/robot_localization/build/robot_localization -- -j4 -l4
+[464.589s] Invoking command in '/home/hi/robot_localization/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hi/robot_localization/build/robot_localization
+[464.620s] -- Install configuration: "RelWithDebInfo"
+[464.621s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/ament_index/resource_index/rosidl_interfaces/robot_localization
+[464.623s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[464.624s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv
+[464.624s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/get_state.h
+[464.625s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/set_datum.h
+[464.627s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail
+[464.628s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__functions.c
+[464.629s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__struct.h
+[464.630s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__functions.c
+[464.632s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__type_support.h
+[464.633s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__type_support.h
+[464.634s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__struct.h
+[464.635s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__struct.h
+[464.636s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__functions.c
+[464.638s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__type_support.h
+[464.639s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__functions.h
+[464.640s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__functions.h
+[464.642s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__struct.h
+[464.643s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__struct.h
+[464.644s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__functions.c
+[464.646s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__type_support.h
+[464.647s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__functions.h
+[464.648s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__functions.h
+[464.650s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__struct.h
+[464.651s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__functions.c
+[464.653s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__type_support.h
+[464.654s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__type_support.h
+[464.655s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__functions.h
+[464.656s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__functions.c
+[464.658s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__functions.h
+[464.659s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/to_ll.h
+[464.660s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/set_pose.h
+[464.661s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/from_ll.h
+[464.664s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/toggle_filter_processing.h
+[464.665s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg
+[464.666s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg/rosidl_generator_c__visibility_control.h
+[464.668s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/library_path.sh
+[464.669s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/library_path.dsv
+[464.671s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so
+[464.676s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so" to ""
+[464.677s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[464.678s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv
+[464.678s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail
+[464.681s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_c.h
+[464.684s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_c.h
+[464.685s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[464.688s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_c.h
+[464.690s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_c.h
+[464.692s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[464.693s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg
+[464.694s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[464.696s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_c.so
+[464.703s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_c.so" to ""
+[464.703s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[464.704s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv
+[464.704s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/set_datum.hpp
+[464.705s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail
+[464.705s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__traits.hpp
+[464.707s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__traits.hpp
+[464.708s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__builder.hpp
+[464.709s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__builder.hpp
+[464.710s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__builder.hpp
+[464.712s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__struct.hpp
+[464.713s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__struct.hpp
+[464.715s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__traits.hpp
+[464.716s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__struct.hpp
+[464.717s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__builder.hpp
+[464.718s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__traits.hpp
+[464.720s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__struct.hpp
+[464.721s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__traits.hpp
+[464.722s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__builder.hpp
+[464.724s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__traits.hpp
+[464.725s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__builder.hpp
+[464.726s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__struct.hpp
+[464.727s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__struct.hpp
+[464.729s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/from_ll.hpp
+[464.730s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/toggle_filter_processing.hpp
+[464.731s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/to_ll.hpp
+[464.732s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/set_pose.hpp
+[464.733s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/get_state.hpp
+[464.734s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[464.735s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv
+[464.736s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail
+[464.736s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_cpp.hpp
+[464.738s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[464.739s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[464.740s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/dds_fastrtps
+[464.741s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[464.743s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[464.745s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_cpp.hpp
+[464.746s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg
+[464.749s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[464.750s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_cpp.so
+[464.758s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_cpp.so" to ""
+[464.758s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[464.759s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv
+[464.759s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail
+[464.760s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__type_support.c
+[464.761s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_c.h
+[464.762s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__type_support.c
+[464.783s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_c.h
+[464.784s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_c.h
+[464.784s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__type_support.c
+[464.785s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__type_support.c
+[464.787s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[464.788s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_c.h
+[464.789s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__type_support.c
+[464.789s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[464.790s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__type_support.c
+[464.790s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg
+[464.791s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[464.791s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so
+[464.791s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so" to ""
+[464.792s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so
+[464.793s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so" to ""
+[464.793s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[464.793s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv
+[464.794s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail
+[464.795s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_cpp.hpp
+[464.796s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__type_support.cpp
+[464.797s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_cpp.hpp
+[464.799s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[464.800s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[464.802s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_cpp.hpp
+[464.803s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/set_datum__type_support.cpp
+[464.804s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/from_ll__type_support.cpp
+[464.806s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/to_ll__type_support.cpp
+[464.807s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/get_state__type_support.cpp
+[464.808s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_cpp.hpp
+[464.810s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/srv/detail/toggle_filter_processing__type_support.cpp
+[464.812s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so
+[464.826s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so" to ""
+[464.826s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so
+[464.827s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so" to ""
+[464.827s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/pythonpath.sh
+[464.828s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/pythonpath.dsv
+[464.828s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization-3.5.3-py3.10.egg-info
+[464.828s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization-3.5.3-py3.10.egg-info/dependency_links.txt
+[464.829s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization-3.5.3-py3.10.egg-info/top_level.txt
+[464.829s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization-3.5.3-py3.10.egg-info/SOURCES.txt
+[464.830s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization-3.5.3-py3.10.egg-info/PKG-INFO
+[464.832s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization
+[464.832s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/_robot_localization_s.ep.rosidl_typesupport_c.c
+[464.834s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/_robot_localization_s.ep.rosidl_typesupport_fastrtps_c.c
+[464.837s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[464.839s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/_robot_localization_s.ep.rosidl_typesupport_introspection_c.c
+[464.840s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv
+[464.841s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_set_pose_s.c
+[464.843s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_toggle_filter_processing_s.c
+[464.844s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_to_ll_s.c
+[464.845s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_set_pose.py
+[464.846s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_from_ll_s.c
+[464.849s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_set_datum_s.c
+[464.849s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_set_datum.py
+[464.850s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/__init__.py
+[464.851s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_get_state.py
+[464.853s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_get_state_s.c
+[464.854s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_from_ll.py
+[464.855s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_to_ll.py
+[464.856s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_toggle_filter_processing.py
+[464.858s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[464.860s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/librobot_localization__rosidl_generator_py.so
+[464.862s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/__init__.py
+[464.864s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[465.144s] Listing '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization'...
+[465.145s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/__init__.py'...
+[465.147s] Listing '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv'...
+[465.149s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/__init__.py'...
+[465.157s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_from_ll.py'...
+[465.159s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_get_state.py'...
+[465.160s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_set_datum.py'...
+[465.162s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_set_pose.py'...
+[465.170s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_to_ll.py'...
+[465.173s] Compiling '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/srv/_toggle_filter_processing.py'...
+[465.185s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[465.190s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[465.192s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[465.203s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[465.204s] -- Installing: /home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[465.208s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[465.208s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_generator_py.so
+[465.213s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librobot_localization__rosidl_generator_py.so" to ""
+[465.214s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/FromLL.idl
+[465.216s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/GetState.idl
+[465.218s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetDatum.idl
+[465.220s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetPose.idl
+[465.221s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.idl
+[465.223s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToLL.idl
+[465.225s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/FromLL.srv
+[465.227s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/FromLL_Request.msg
+[465.229s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/FromLL_Response.msg
+[465.230s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/GetState.srv
+[465.232s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/GetState_Request.msg
+[465.234s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/GetState_Response.msg
+[465.235s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetDatum.srv
+[465.237s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetDatum_Request.msg
+[465.238s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetDatum_Response.msg
+[465.240s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetPose.srv
+[465.241s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetPose_Request.msg
+[465.242s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/SetPose_Response.msg
+[465.244s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.srv
+[465.246s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Request.msg
+[465.247s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Response.msg
+[465.249s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToLL.srv
+[465.252s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToLL_Request.msg
+[465.252s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/srv/ToLL_Response.msg
+[465.254s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/robot_localization/ekf_node
+[465.284s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/robot_localization/ekf_node" to ""
+[465.287s] -- Installing: /home/hi/robot_localization/install/robot_localization/lib/librl_lib.so
+[465.973s] -- Set runtime path of "/home/hi/robot_localization/install/robot_localization/lib/librl_lib.so" to ""
+[465.974s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization
+[465.975s] -- Up-to-date: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization
+[465.976s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/ros_filter_types.hpp
+[465.983s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/ros_filter.hpp
+[465.984s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/ekf.hpp
+[465.985s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/filter_state.hpp
+[465.989s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/measurement.hpp
+[465.992s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/filter_utilities.hpp
+[465.993s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/filter_common.hpp
+[465.995s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/ros_filter_utilities.hpp
+[465.995s] -- Installing: /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/filter_base.hpp
+[465.996s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/params
+[466.000s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml
+[466.007s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/params/ekf.yaml
+[466.010s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/launch
+[466.011s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/launch/ekf.launch.py
+[466.014s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+[466.015s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+[466.021s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+[466.022s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+[466.026s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/path.sh
+[466.027s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/environment/path.dsv
+[466.028s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/local_setup.bash
+[466.029s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/local_setup.sh
+[466.030s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/local_setup.zsh
+[466.031s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/local_setup.dsv
+[466.032s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/package.dsv
+[466.035s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+[466.036s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_generator_cExport.cmake
+[466.037s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_generator_cExport-relwithdebinfo.cmake
+[466.039s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_typesupport_fastrtps_cExport.cmake
+[466.041s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[466.041s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_generator_cppExport.cmake
+[466.042s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_typesupport_fastrtps_cppExport.cmake
+[466.043s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[466.046s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport.cmake
+[466.051s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[466.053s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport.cmake
+[466.055s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[466.058s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport.cmake
+[466.060s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[466.063s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport.cmake
+[466.071s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[466.075s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_generator_pyExport.cmake
+[466.077s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/export_robot_localization__rosidl_generator_pyExport-relwithdebinfo.cmake
+[466.078s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/rosidl_cmake-extras.cmake
+[466.080s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[466.083s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[466.092s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[466.092s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_targets-extras.cmake
+[466.093s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[466.100s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[466.100s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[466.107s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[466.109s] -- Installing: /home/hi/robot_localization/install/robot_localization/share/robot_localization/package.xml
+[466.130s] Invoked command in '/home/hi/robot_localization/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hi/robot_localization/build/robot_localization
