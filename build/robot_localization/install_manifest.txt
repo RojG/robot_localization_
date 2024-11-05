@@ -168,7 +168,6 @@
 /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/filter_common.hpp
 /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/ros_filter_utilities.hpp
 /home/hi/robot_localization/install/robot_localization/include/robot_localization/robot_localization/filter_base.hpp
-/home/hi/robot_localization/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml
 /home/hi/robot_localization/install/robot_localization/share/robot_localization/params/ekf.yaml
 /home/hi/robot_localization/install/robot_localization/share/robot_localization/launch/ekf.launch.py
 /home/hi/robot_localization/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
